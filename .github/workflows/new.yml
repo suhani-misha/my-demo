@@ -1,0 +1,8 @@
+- name: Upload via FTP
+  uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+  with:
+    server: 122.176.104.29
+    username: anjumftp
+    password: ${{ secrets.ftp }}
+    local-dir: "./"   
+    server-dir: "/"
