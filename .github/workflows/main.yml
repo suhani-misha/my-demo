@@ -19,6 +19,6 @@ jobs:
         with:
           server: 122.176.104.29
           username: anjumftp
-          password: ${{ secrets.ftp }}
+          password: $AMisha@123
           local-dir: "./"   # Change this if you want to upload a specific directory
           server-dir: "/"   # Target directory on the FTP server
