@@ -22,5 +22,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           passive: false
           local_path: './*'
-          remote_path: '/D:\New folder'
+          remote_path: /New folder
         
