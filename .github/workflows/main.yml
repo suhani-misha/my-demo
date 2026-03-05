@@ -20,6 +20,7 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
+          passive: false
           local_path: './*'
           remote_path: '/D:\New folder'
         
